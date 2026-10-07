@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+
+    <link rel="icon"
+          type="image/svg+xml"
+          href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%232da44e' d='M12 .5C5.73.5.75 5.48.75 11.75c0 5.01 3.25 9.26 7.76 10.76.57.1.77-.25.77-.55v-2.17c-3.16.69-3.82-1.34-3.82-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.44.11-3 0 0 .95-.3 3.11 1.16A10.8 10.8 0 0112 6.38c.96 0 1.93.13 2.83.38 2.16-1.46 3.11-1.16 3.11-1.16.62 1.56.23 2.71.11 3 .73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.3-5.19 5.59.41.35.77 1.04.77 2.1v3.12c0 .3.21.66.78.55 4.5-1.5 7.75-5.75 7.75-10.75C23.25 5.48 18.27.5 12 .5z'/%3E%3C/svg%3E">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+            color: #1f2328;
+            background:
+                radial-gradient(circle at top, #ffffff 0%, #f6f8fa 45%, #eaeef2 100%);
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 2.4rem;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            margin: 0 0 35px;
+            color: #656d76;
+            font-size: 1rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 14px;
+            width: 300px;
+            max-width: 80vw;
+            margin: 0 auto;
+        }
+
+        .github-link {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 15px 24px;
+            color: #ffffff;
+            background: #24292f;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            box-shadow:
+                0 2px 4px rgba(0, 0, 0, 0.08),
+                0 8px 24px rgba(0, 0, 0, 0.12);
+            transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease,
+                background 0.2s ease;
+        }
+
+        .github-link:hover {
+            background: #32383f;
+            transform: translateY(-2px);
+            box-shadow:
+                0 4px 8px rgba(0, 0, 0, 0.10),
+                0 12px 30px rgba(0, 0, 0, 0.16);
+        }
+
+        .github-link:active {
+            transform: translateY(0);
+        }
+
+        .github-icon {
+            width: 26px;
+            height: 26px;
+            flex-shrink: 0;
+            fill: currentColor;
+        }
+
+        .link-text {
+            text-align: left;
+        }
+
+        .link-title {
+            display: block;
+            line-height: 1.2;
+        }
+
+        .link-description {
+            display: block;
+            margin-top: 3px;
+            color: #b6bdc5;
+            font-size: 0.76rem;
+            font-weight: 400;
+        }
+
+        footer {
+            margin-top: 45px;
+            color: #8c959f;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Welcome</h1>
+
+        <p class="subtitle">
+            My projects on GitHub
+        </p>
+
+        <div class="links">
+
+            <a class="github-link"
+               href="https://github.com/argh0815"
+               target="_self"
+               rel="noopener noreferrer">
+
+                <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.01 3.25 9.26 7.76 10.76.57.1.77-.25.77-.55v-2.17c-3.16.69-3.82-1.34-3.82-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.44.11-3 0 0 .95-.3 3.11 1.16A10.8 10.8 0 0112 6.38c.96 0 1.93.13 2.83.38 2.16-1.46 3.11-1.16 3.11-1.16.62 1.56.23 2.71.11 3 .73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.3-5.19 5.59.41.35.77 1.04.77 2.1v3.12c0 .3.21.66.78.55 4.5-1.5 7.75-5.75 7.75-10.75C23.25 5.48 18.27.5 12 .5z"/>
+                </svg>
+
+                <span class="link-text">
+                    <span class="link-title">My GitHub</span>
+                    <span class="link-description">github.com/argh0815</span>
+                </span>
+            </a>
+
+            <a class="github-link"
+               href="https://github.com/argh0815/entware-packages"
+               target="_self"
+               rel="noopener noreferrer">
+
+                <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.01 3.25 9.26 7.76 10.76.57.1.77-.25.77-.55v-2.17c-3.16.69-3.82-1.34-3.82-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.44.11-3 0 0 .95-.3 3.11 1.16A10.8 10.8 0 0112 6.38c.96 0 1.93.13 2.83.38 2.16-1.46 3.11-1.16 3.11-1.16.62 1.56.23 2.71.11 3 .73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.3-5.19 5.59.41.35.77 1.04.77 2.1v3.12c0 .3.21.66.78.55 4.5-1.5 7.75-5.75 7.75-10.75C23.25 5.48 18.27.5 12 .5z"/>
+                </svg>
+
+                <span class="link-text">
+                    <span class="link-title">Entware Packages</span>
+                    <span class="link-description">Custom Entware packages</span>
+                </span>
+            </a>
+
+        </div>
+
+        <footer>
+            &copy; argh0815
+        </footer>
+
+    </main>
+
+</body>
+</html>
